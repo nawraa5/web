@@ -15,12 +15,15 @@
     <!-- TODO: Add a title, e.g., "Manage Weekly Breakdown". -->
     <title>Manage Weekly Breakdown</title>
     <!-- TODO: Link to your CSS framework or stylesheet. -->
+
+     <script src="admin.js" defer></script>
 </head>
 <body>
 
     <!-- TODO: Create a 'header' with a main heading ('h1') "Manage Weekly Breakdown". -->
-     <h1>Manage Weekly Breakdown</h1>
-
+     <header>
+    <h1>Manage Weekly Breakdown</h1>
+     </header>
     <!-- TODO: Create the 'main' content area. -->
      <main>
 
@@ -53,6 +56,8 @@
                     <!-- TODO: Add a 'label' and 'textarea' for the week's description and notes.
                          - label 'for': "week-description"
                          - textarea 'id': "week-description", rows="5" -->
+                         <label for="week-description">Week Description:</label>
+                         <textarea id="week-description" rows="5"></textarea>
                     
                     <!-- TODO: Add a 'label' and 'textarea' for links to exercises or resources (one link per line).
                          - label 'for': "week-links"
@@ -83,14 +88,23 @@
                     <!-- TODO: Add 'th' elements for "Week Title", "Description", and "Actions". -->
                 
                 <!-- TODO: Create a 'tbody' for the data. -->
-                 <tbody>
+                
                     <!-- TODO: Add 1-2 rows of dummy data to see the structure. -->
                     <!-- Example Row 1: -->
                     <!-- TODO: Create a 'tr' for the first week. -->
                         <!-- TODO: Add 'td' cells for a title (e.g., "Week 1: Intro to HTML") and a short description. -->
+                         <thead>
+                        <tr>
+                            <th>Week Title </th>
+                            <th>Description</th>
+                            <th>Action</th>
+                         </tr>
+                         </thead>
+                         <tbody id="weeks-tbody">
                          <tr>
-                            <td>Week 1: Intro to HTML</td>
-                            <td>Basics of HTML structure and tags</td>
+                         <td>Week 1: Intro to HTML</td>
+                         <td>Basics of HTML structure and tags</td>
+                    
 
                         
                         <!-- TODO: Add a 'td' containing the action buttons. -->
