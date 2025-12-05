@@ -27,10 +27,9 @@ let currentComments = [];
 const weekTitle=document.getElementById("week-title");
 const weekStartDate=document.getElementById("week-start-date");
 const weekDescription=document.getElementById("week-description");
-
 const weekLinksList=document.getElementById("week-links-list");
 const commentList=document.getElementById("comment-list");
-const commentForm=document.getElementById("comment-form");
+const commentForm=document.getElementById("comment-form");     
 const newCommentText=document.getElementById("new-comment-text");
 
 // --- Functions ---

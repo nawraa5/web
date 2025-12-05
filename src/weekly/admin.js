@@ -149,7 +149,6 @@ function handleTableClick(event) {
    if(btn.classList.contains('delete-btn')){
     const id=btn.dataset.id;
     weeks=weeks.filter(week=>week.id!==id)
-
     renderTable();
    }
 
@@ -169,7 +168,7 @@ async function loadAndInitialize() {
   // ... your implementation here ...
   try{
   const response=await fetch('weeks.json');
-  
+
   if(!response.ok){
     throw new Error('Failed to load weeks.json');
   }   
