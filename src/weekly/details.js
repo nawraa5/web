@@ -45,7 +45,6 @@ const newCommentText=document.getElementById("new-comment-text");
  */
 function getWeekIdFromURL() {
   // ... your implementation here ...
-  
   const queryString=window.location.search;      
   const urlparms=new URLSearchParams(queryString);
   const WeekId=urlparms.get('id');

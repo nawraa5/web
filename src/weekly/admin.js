@@ -148,7 +148,6 @@ function handleTableClick(event) {
 
    if(btn.classList.contains('delete-btn')){
     const id=btn.dataset.id;
-    
     weeks=weeks.filter(week=>week.id!==id)
 
     renderTable();
