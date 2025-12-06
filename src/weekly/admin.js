@@ -168,7 +168,7 @@ async function loadAndInitialize() {
   // ... your implementation here ...
   try{
   const response=await fetch('weeks.json');
-
+  
   if(!response.ok){
     throw new Error('Failed to load weeks.json');
   }   

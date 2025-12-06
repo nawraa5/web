@@ -33,7 +33,6 @@ const commentForm=document.getElementById("comment-form");
 const newCommentText=document.getElementById("new-comment-text");
 
 // --- Functions ---
-
 /**
  * TODO: Implement the getWeekIdFromURL function.
  * It should:

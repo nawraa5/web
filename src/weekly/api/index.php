@@ -158,7 +158,6 @@ function getAllWeeks($db) {
     'data' => $weeks]);
 }
 
-
 /**
  * Function: Get a single week by week_id
  * Method: GET
